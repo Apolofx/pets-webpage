@@ -54,17 +54,13 @@ a {
 
 /* COVER */
 .container {
-  display: flex;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1;
   justify-content: center;
   align-items: center;
-  height: 60vh;
 }
-
-.cover {
-  width: 60rem;
-  transition: 0.5s;
-}
-.cover:hover {
+.container:hover {
   transform: scale(1.02);
 }
 
@@ -96,7 +92,7 @@ footer {
   padding: 0.3em;
   font-size: 1em;
 }
-.zone:hover {
+/* .zone:hover {
   -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
   -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px,
@@ -105,7 +101,7 @@ footer {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
   box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 15px,
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
-}
+} */
 
 .box:hover {
   -webkit-transform: rotate(-4deg);
